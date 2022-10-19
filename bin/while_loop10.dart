@@ -1,23 +1,24 @@
 /*
   Create function func with "a " argument
   If the number "a" is given, "tub son" is returned if it is a prime number,
-  otherwise "tub son emas"
-  
-  
-  
+  otherwise "tub son emas" 
 */
 String func(int a) {
   int i = 1;
-  String s = 'tub son emas';
+  int m = 0;
+  String s = '';
   while (i <= a) {
     if (a % i == 0) {
-      print(i);
+      m += 1;
     }
     i = i + 1;
   }
-  return s;
+  if (m == 2) {
+    return s = 'tub son';
+  }
+  return s = 'tub son emas';
 }
 
 void main() {
-  print(func(8));
+  print(func(29));
 }
