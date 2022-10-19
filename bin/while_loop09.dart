@@ -5,7 +5,7 @@
   
 */
 String func(int a) {
-  int i = 0;
+  int i = 1;
   String s = '';
   while (i <= a) {
     if (i % 2 == 0) {
