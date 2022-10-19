@@ -13,12 +13,11 @@ String func(int a) {
     if (a % i == 0) {
       print(i);
     }
-
     i = i + 1;
   }
   return s;
 }
 
 void main() {
-  print(func(7));
+  print(func(8));
 }
